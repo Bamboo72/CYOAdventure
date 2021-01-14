@@ -1,0 +1,122 @@
+These are my ideas for the CYO Adventure:
+
+    - Character profiles that can be accessed using passwords
+        - Name, gender (affects pronouns), equipment, save data, etc...
+        - Easter egg/ reference characters like Link, Cadence, etc...
+        * I'll need to learn how to access files like I did with the bank project in C++
+    - A timer system to space out dialog
+        e.g. "Hi, what's your name?" (Wait two seconds) "Oh, it's " + charName
+    - The story/environment should be similar to a Zelda game because that's what I'm familiar with
+        - Foresty area, homely villages, maybe a castle, some farms, etc...
+        - Dungeons to explore and find cool loot
+    - Enemy encounters with turn based combat of some sort
+    - Maybe I should split my game into chapters, that way I can build on it/ make parts.
+        - Similar to Paper Mario in a way? Each chapter focuses on one unique area.
+        - Prologue: Starting village, learn to fight, start on your quest
+        - Chapter One: Forest area, cave dungeon
+        - Chapter Two: Castle area, actual dungeon, maybe you got thrown in jail?
+        - Chapter Three:
+    - Start with a prototype! If it's not fun then the real deal won't be either!
+    - Can you open your inventory anywhere at anytime? Or is it just in places you need it?
+
+Concerns:
+    - Do I need to make separate classes for things, or will methods work?
+    - Story paths won't line up/ if and case statements might get confusing
+    - Player inventory and how it'll work
+    - How to come up with good names that aren't stupid
+
+Character Ideas:
+
+    Home Village:
+       
+        Your character
+        Dad (Isaac):
+        Brother (Simeon?):
+
+        Smith: The village blacksmith, works on farm equipment
+
+        Hank: The village guard, father of Toolee and Ronel, teaches you to fight
+        * Hank's Wife
+        Toolee: A young girl from your village, your friend
+        Ronel: Toolee's older sister, rude, wants to move out
+
+        Jordan: A young man from the village, recently married to Karina, looking to become a merchant someday but doesn't know where to start
+        Karina: A young woman from the village, recently married to Jordan
+       
+        Hilly: An old farmer who runs the farm next to yours
+
+        Jeff: The shepherd of the village
+        * Jeff's wife
+
+    
+    Travellers:
+
+        Wendel:
+        Protrella:
+        Maven:
+        Reginald:
+        Chase:
+
+    Castle:
+       * King Phadellius
+       Princess
+       Servant 1
+       Servant 2
+       Servant 3
+       Butler
+       Guards: generic soldiers
+       Captain of the Guard:
+
+Battle Mode Example:
+
+    Oh no! A _______!
+    Do you want to (1) attack (2) check (3) flee ?
+    The monster tried to attack, and it did _ damage (enemyAttack - playerArmor)
+    You tried to attack, and did _ damage (playerAttack - enemyArmor)
+    No one missed this turn, but it could happen!
+    You dealt enough damage and defeated the ______!
+    You took too much damage! Game Over (Game Overs +1)
+    You gained 1 slime, 2 meat, 1 apple
+    Uh oh, your inventory is too full! What do you want to drop?
+    *Use arrays for player inventory?
+
+Major Choices Ideas:
+
+    To leave the village or to stay? This would have an impact on your career.
+    Do you want to be a hero? Do you have a choice?
+    I think an open world game would be fun to make, but maybe the first chapter will be more linear.
+    The story lines should be fairly similar, but the most important choices you make will be recorded and effect how things happen:
+         Going to the neighbor village: 
+            Deciding to come right away: The village is in danger! You have to fight lots of enemies, but you become a hero at the end. (Sets save to 0002)
+            Deciding to come later: The village is destroyed, but the people have survived. (Sets save to 0003)
+    Will the number save code idea work??? Yes! Use the charAt() method to detect the char in the save data string.
+
+World Ideas:
+
+    The kingdom's name is **Magdolia? Madogia? Mindagia? Moodloodloo**
+    A long time ago, magic was wild and free, taking many forms: good, evil, morally ambiguous, etc
+    There came a time when the kingdom was divided in two, and tensions were so high that magic threatened to destroy the land,
+    turning it into a cursed wasteland, left to rot and harm any who was foolish enough to try and repair it.
+    That was when _ significant individuals came together: the king, the strongest wizard, the lord of shadow, the rebel queen, the angry dog alpha, etc
+    and they all decided to lock magic away into _ different artifacts. These _ artifacts each hold a type of magic.
+    If they are all brought together, magic could be restored to the land, along with the risk it creates for the existance of the world.
+    Going back to the significant individuals: they came to a peaceful agreement, and now the kingdom is at peace, and magic lays dormant, but still existant.
+
+Location Ideas:
+
+    Main village: Where the adventure begins, agricultural town, next to the woods
+    Snivar cave: First dungeon?, in the woods near the main village, home to a clan of snivars who terrorize the village
+    Neighboring village: The village closest to the main village, slightly larger, more monsters, likely needs help
+    Cursed Battlefield: A historical battlefield that has been cursed by the clashing of powerful magic. This was what motivated the significant individuals to compromise,
+     lest the kingdom become entirely like this marred battlefield. Strong enemies here
+    Compromisial Collumns: Where the great compromise was made
+    The Kingdom Central: The capital of the kingdom, where the royal family resides and forsees the management of the kingdom.
+    Strange tower: A mysterious tower that appeared overnight, people don't know what's inside, but strange noises have been heard from afar...
+    The Kingdom Academy: The most prestigious place of learning in all of the kingdom. Many people come here to learn various trades, crafts, arts, etc.. but this comes with a price.
+
+
+Dialog for the game:
+
+    Prologue:
+        Once, long ago...
+        

@@ -1,0 +1,5 @@
+            NAME          ATTACK           ARMOR          HEALTH            LOOT          CHANCE            ITEM               ;
+      Grey_Slime               3               1               5               0               0               0               ;
+       Red_Slime               3               1               5               1             100               2               ;
+     Green_Slime               3               1               5               1             100               1               ;
+      Boss_Slime               4               1              10               0               0               0               ;

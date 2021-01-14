@@ -1,0 +1,14 @@
+           NAME          GENDER        LOCATION          ATTACK           ARMOR          HEALTH           SPEED   inventoryData  inventoryCount         bagSize               ; 
+           test            male            home               4               2              16              90     0.1.1.0.1.2    0.1.1.0.2.28               6               ; 
+           plac            male            home               4               2              10              10     1.1.1.0.1.2   1.12.1.0.0.20               6               ; 
+           chez            male            home               5               2              10              10     0.0.0.0.0.0     1.1.1.0.0.0               6               ; 
+          hooba          female            home               5               2              10              10     0.0.0.0.0.0     1.1.1.0.0.0               6               ; 
+           july            male            home               5               2              10              10     0.0.0.0.0.0     1.1.1.0.0.0               6               ; 
+       inventor            male            home               4               2              10              10     0.0.0.0.0.0     1.1.1.0.0.0               6               ; 
+    meggiemoo32          female            home               4               2              10              10       0.0.0.0.0       1.1.1.0.0               6               ; 
+           mikk            male            home               4               2              10              10     1.1.1.0.0.0     1.1.1.0.0.0               6               ; 
+   moomoomeggie          female            home               4               2               6              10    21.1.1.1.2.0     1.1.1.1.1.0               6               ; 
+        chicken            male            home               4               2              10              10     1.1.1.0.0.0     1.1.1.0.0.0               6               ; 
+   jellocookies          female            home               4               4               8              43     1.1.1.1.0.0     1.1.1.2.0.0               6               ; 
+   aPlaceholder            male            home               4               4              10              21     1.1.1.0.0.0     1.1.1.0.0.0               6               ; 
+SterlingScholar            male            home               4               4              10              21     1.1.1.0.0.0     1.1.1.0.0.0               6               ; 
